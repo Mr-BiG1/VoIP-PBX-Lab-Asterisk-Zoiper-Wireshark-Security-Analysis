@@ -69,15 +69,6 @@ sudo iptables -A INPUT -p udp --dport 5060 -j DROP
 
 ---
 
-## **How to Use This Lab**  
-1. Clone this repo:  
-   ```bash
-   git clone https://github.com/yourusername/voip-lab.git
-   ```  
-2. Follow the [detailed guide](docs/setup.md) (add a `setup.md` later).  
-
----
-
 ## **Future Enhancements**  
 - [ ] Add **ESP32-based intrusion alerts** (LED triggers).  
 - [ ] Set up **VPN-secured VoIP** (WireGuard/OpenVPN).  
